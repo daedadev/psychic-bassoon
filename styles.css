@@ -1,17 +1,16 @@
 .main-body {
+    padding-left: 100px;
     background-color: black;
     margin: 0px;
 }
 
 .header-section {
     position: absolute;
-    padding-left: 100px;
     padding-top: 20px;
     height: 24px;
 }
 
 .text-holder {
-    padding-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,3 +31,9 @@
     margin: 0px;
     padding-top: 12px;
 }
+
+@media only screen and (max-width: 600px) {
+    .main-body {
+      padding-left: 20px;
+    }
+  }
