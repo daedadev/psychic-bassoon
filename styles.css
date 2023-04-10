@@ -6,6 +6,8 @@
 
 .main-body {
     background-color: black;
+    height: 100vh;
+    width: 100vw;
 }
 
 .text-holder {
@@ -14,8 +16,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
-    width: 100vw;
     color: aliceblue;
     font-family: 'Inter';
 }
